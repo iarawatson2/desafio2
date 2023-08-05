@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
   searchControl: FormControl = new FormControl('');
   searchForm: FormGroup;
 
-  pageSize = 4;
+  pageSize = 5;
   currentPageIndex = 0;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
